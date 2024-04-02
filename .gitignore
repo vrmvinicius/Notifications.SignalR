@@ -1,0 +1,23 @@
+## Arquivos de compilação
+bin/
+obj/
+
+## Arquivos de Ferramentas
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+## Arquivos de Pacotes
+**/[Pp]ackages/*
+**/node_modules/
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]og/
+
+## Outros arquivos e pastas
+*.log
+*.sql
+*.sqlite
