@@ -106,7 +106,7 @@
     protected override async Task OnInitializedAsync()
     {
         hubConnection = new HubConnectionBuilder()
-            .WithUrl(new Uri("https://localhost:7011/chat-hub"))
+            .WithUrl(new Uri("https://notificationsapi20240402155013.azurewebsites.net/chat-hub"))
             .Build();
 
         hubConnection.On<string>("UserConnected", (username) =>
